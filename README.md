@@ -2,8 +2,7 @@
 Forwards Serial Data to an IP address
 
 (C) 2016 Mark Bristow <mark.bristow@gmail.com>
-Forwards Serial Data to an IP address
-Inspired by Chris Liechti <cliechti@gmx.net> script found here: 
+Inspired by Chris Liechti <cliechti@gmx.net> script found here:
 https://github.com/pyserial/pyserial/blob/master/examples/tcp_serial_redirect.py
 
 Software is provided "as-is".  No warranty is implied and functionality is not gaurenteed.
@@ -14,9 +13,9 @@ SPDX-License-Identifier:	BSD-3-Clause
 BE SURE YOU INSTALL PYSERIAL 'sudo apt-get install python-serial'
 
 usage: serial_forwarder.py [-h] [-q] [-t TIMEOUT] [--parity {N,E,O,S,M}]
-                           [--rtscts] [--xonxoff] [--rts RTS] [--dtr DTR]
-                           [-P REMOTEPORT]
-                           HOSTNAME SERIALPORT [BAUDRATE]
+							[--rtscts] [--xonxoff] [--rts RTS] [--dtr DTR]
+							[-P REMOTEPORT]
+							HOSTNAME SERIALPORT [BAUDRATE]
 
 positional arguments:
   HOSTNAME              remote processing host IP or Hostname
